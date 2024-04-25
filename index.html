@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    
+    
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Waldwinkel</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-header">
+            <input type="checkbox"  id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="logo">
+                <h3>Wald</h3>
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Winkel</h3>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#waldwinkel">Waldwinkel</a>
+                </li>
+                <li>
+                    <a href="#speisen">Speisen und Getränke</a>
+                </li>
+                <li><a href="#galerie">Galerie</a>
+                </li>
+                <li><a href="#reservierung">Tischreservierung</a>
+                </li>
+                <li><a href="#kontakt">Öffnungszeiten & Kontakt</a>
+                </li>
+                <li> 
+                    <label for="menu-toggle" class="menu-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="assets/33898-399148537_small.mp4">
+            </video>
+            <div class="video-logo">
+                <h3>Wald</h3>
+                <i class="fa-solid fa-utensils" id="logo-symbol"></i>
+                <h3>Winkel</h3>
+            </div>
+        </div>
+        <span class="stern"><i class="fa-solid fa-certificate"></i></span>
+        <span class="title">Hausmannskost geniessen</span>
+        <details>
+            <summary class="summary-1">
+                <p id="waldwinkel">
+                    <h4>Herzlich willkommen im "Waldwinkel" </h4> unserem charmanten Gasthaus, das idyllisch am Rande des Waldes liegt.
+                </p>
+            </summary>
+            <article class="text-columns" lang="de">
+                <p>
+                    <span class="initial">H</span>ier, in der friedvollen Stille des Landlebens, bietet der "Waldwinkel" nicht nur eine Oase der Ruhe für Spaziergänger und Radfahrer, sondern auch ein kulinarisches Erlebnis, das die Herzen der Hausmannskost-Liebhaber höherschlagen lässt. Unser Restaurant verbindet traditionelle Küche mit einer modernen Note, die alle Generationen begeistert.
+                </p>
+                <p>Inmitten der malerischen Umgebung, wo die Natur zum Verweilen einlädt, können Sie in unserem Restaurant wundabare Momente genießen. Ob Sie nach einer ausgiebigen Wanderung oder einer Fahrradtour eine Pause einlegen möchten, unsere Türen stehen offen. Mit genügend Parkmöglichkeiten ist es ein Leichtes, bei uns hereinzuschauen.
+                </p>
+                <p>Im "Waldwinkel" erwartet Sie nicht nur Gaumenfreude, sondern auch eine Atmosphäre, die mit echten Holzmöbel, warmem Holzbau und einem prasselnden Kamin im großen Saal Wärme und Behaglichkeit ausstrahlt. Der große Saal, ein Herzstück unseres Hauses, dient als perfekte Kulisse für festliche Ereignisse wie Hochzeiten und Geburtstage. Ein einzigartiges Aquarium bildet das Zentrum unserer Räumlichkeiten und trennt den großen vom kleineren Raum, während es mit seinem lebendigen Farbenspiel für eine beruhigende Atmosphäre sorgt.
+                </p>
+                <p>Für diejenigen, die Privatsphäre suchen, bietet unser kleinerer Raum, der Platz für 15 bis 20 Gäste bietet, einen Rückzugsort für intime Zusammenkünfte - offen oder geschlossen, ganz nach Ihrem Wunsch.
+                </p>
+                <p>Kommen Sie vorbei und lassen Sie sich von der Authentizität und Wärme des "Waldwinkels" verzaubern. Wir freuen und darauf, Sie mit offenen Armen willkommen zu heißen und Ihnen ein Stück Heimat auf dem Teller zu präsentieren.
+                </p>
+            </article>
+            <span class="stern-3">
+                <i class="fa-solid fa-certificate"></i>
+                <i class="fa-solid fa-certificate"></i>
+                <i class="fa-solid fa-certificate"></i>
+            </span>
+        </details>
+        <div class="philosophy-section">
+            <h1>Unsere Philosophie</h1>
+        
+        <div class="carousel">
+            <input type="radio" name="carousel" id="slide1" checked hidden/>
+            <input type="radio" name="carousel" id="slide2" hidden/>
+            <input type="radio" name="carousel" id="slide3" hidden/>
+            <div class="slides"> 
+                    <label for="slide1" class="slide">
+                    <img src="assets/loaf-4170338_1280.jpg" alt="Brot">
+                    <h2>1. Traditionell</h2>
+                    <p class="additional-text text1">Die über Jahre gewachsenen Traditionen versprechen höchste Freude für die Geschmackssinne. Kenntnisse der Küche sind für uns nicht nur ein Zusatz, sondern elementarer Bestandteil unserer Kochkultur. Daher sind wir auch stets neugierig darauf unser Wissen in diesem Bereich zu vertiefen, um Ihnen ein authentisch kulinarisches Erlebnis zu bieten.</p>
+                </label>
+                    <label for="slide2" class="slide">
+                    <img src="assets/herbs-2523119_1280.jpg" alt="Kräuter">
+                    <h2>2. Regional</h2>
+                    <p class="additional-text text2">
+                        Für hochwertige Zutaten müssen wir nicht um die Welt fliegen. Bestes haben wir direkt vor der Haustür. Inspirieren lassen wir uns dabei von unserem Gefühl für Natürlichkeit. Wir definieren unsere Küche im Kontext der Landschaft. Das Bewusstsein dafür hilft uns ihr Land-Erlebnis zu einem Fest aller Sinne zu machen.</p>
+                    </label>
+                    <label for="slide3" class="slide">
+                    <img src="assets/lobster-4952603_1280.jpg" alt="Hummer">
+                    <h2>3. Anspruchsvoll</h2>
+                    <p class="additional-text text3">
+                        Beste Zutaten sind Grundlage für jede Kreation. Doch sie sind nicht hinreichend wenn es darum geht eine Küche anzubieten, die höchste Ansprüche erfüllt. Expertise und Leidenschaft sind es, die aus wertvollsten Zutaten ein Gericht machen, das mehr ist als die Summe seiner Teile. Dafür steht der "Waldwinkel" in Wehden. Seien Sie anspruchsvoll. Wir sind es auch.</p>
+                    </label>
+            </div>
+            <div class="navigation">
+                <label for="slide1" class="nav-circle"></label>
+                <label for="slide2" class="nav-circle"></label>
+                <label for="slide3" class="nav-circle"></label>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main class="main">
+        <section class="menu-section" id="speisen">
+            <div class="menu-content">
+                <h1>Speisen & Getränke</h1>
+                
+                <article id="vorspeisen">
+                    <h4>Vorspeisen</h4>
+                    <details class="speisen vorspeisen">
+                        <summary>Gebratene Jakobsmuscheln</summary>
+                        <p>mit marinierter Rote Beete, Pancetta und Thymianschaum <br>26,50 €</p>
+                    </details>
+                    <details class="speisen vorspeisen">
+                        <summary>Matjestatar auf geröstetem Gewürzbrot</summary>
+                        <p>mit roten Zwiebeln, Apfel, Dill und Schmand <br>18,50 €</p>
+                    </details>
+                    <details class="speisen vorspeisen">
+                        <summary>Wehdener Salat</summary>
+                        <p>mit Kirschtomaten, Gurke, Taggiasca-Oliven und Feta aus Lesbos <br>18,50 €</p>
+                    </details>
+                </article>
+                <article id="suppen">
+                    <h4>Suppen</h4>
+                    <details class="speisen suppen">
+                        <summary>Curry - Zitronengras - Suppe</summary>
+                        <p>mit knusprigem Hähnchen <br>18,50 €</p>
+                    </details>
+                    <details class="speisen suppen">
+                        <summary>Rinderkraftbrühe</summary>
+                        <p>mit hausgemachten Frittaten und Wurzelgemüse <br>17,00 €</p>
+                    </details>
+                    <details class="speisen suppen">
+                        <summary>Suppe 3</summary>
+                        <p>Beschreibung 3</p>
+                    </details>
+                </article>
+                <article id="hauptgerichte">
+                    <h4>Hauptgänge</h4>
+                    <details class="speisen hauptgerichte">
+                        <summary>Hauptgericht 1</summary>
+                        <p>Beschreibung 1</p>
+                    </details>
+                    <details class="speisen hauptgerichte">
+                        <summary>Hauptgericht 2</summary>
+                        <p>Beschreibung 2</p>
+                    </details>
+                    <details class="speisen hauptgerichte">
+                        <summary>Hauptgericht 3</summary>
+                        <p>Beschreibung 3</p>
+                    </details>
+                </article>
+                <article id="desserts">
+                    <h4>Dessert</h4>
+                    <details class="speisen desserts">
+                        <summary>Dessert 1</summary>
+                        <p>Beschreibung 1</p>
+                    </details>
+                    <details class="speisen desserts">
+                        <summary>Dessert 2</summary>
+                        <p>Beschreibung 2</p>
+                    </details>
+                    <details class="speisen desserts">
+                        <summary>Dessert 3</summary>
+                        <p>Beschreibung 3</p>
+                    </details>
+                </article>
+            </div>
+        </section>
+        <section class="gallery" id="galerie">
+            <h2>GALERIE</h2>
+            <div class="video-container-2">
+                <video autoplay loop muted playsinline>
+                    <source src="assets/11659-231758756_small.mp4">
+                </video>
+            </div>
+            <div class="video-container-3">
+                <video autoplay loop muted playsinline>
+                    <source src="assets/11654-231758760_small.mp4">
+                </video>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="logo">
+                <h3>Wald</h3>
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Winkel</h3>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <a href="#kontakt">Kontakt</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#impressum">Impressum</a>
+            <a href="#compliance">Compliance</a>
+            <a href="#agb">AGB</a>
+            <a href="#datenschutz">Datenschutz</a>
+            <a href="#mediacenter">Mediacenter</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Waldwinkel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
